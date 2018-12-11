@@ -65,14 +65,14 @@
 * 重复的K折验证。 如果可用的数据很少，同时模型评估又需要非常准确，那么应该使用这种方法。  
 
 ## 为模型选择正确的最后一层激活和损失函数
---------------------------------------------------------------------
- **问题类型              最后一层激活              损失函数**  
---------------------------------------------------------------------
- 二分类问题              sigmoid                   binary_crossentropy  
- 多分类，单标签问题       softmax                   categorical_crossentropy  
- 多分类，多标签问题       sigmoid                   binary_crossentropy  
- 回归到任意值             None                      mse  
- 回归到0~1范围内的值      sigmoid                   mse或binary_crossentropy
+
+  **问题类型             | 最后一层激活            |  损失函数**  
+ --------               | :-----------:           | :-----------: 
+ 二分类问题              |sigmoid                  | binary_crossentropy  
+ 多分类，单标签问题       |softmax                  | categorical_crossentropy  
+ 多分类，多标签问题       |sigmoid                  | binary_crossentropy  
+ 回归到任意值             |None                     | mse  
+ 回归到0~1范围内的值      |sigmoid                  | mse或binary_crossentropy
 
  
  
