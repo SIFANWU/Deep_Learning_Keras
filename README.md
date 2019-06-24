@@ -77,6 +77,7 @@
 
 ## 经典讲解：
 L1和L2正则化项的理解：https://blog.csdn.net/jinping_shi/article/details/52433975  
+自编码和多种变种讲解：https://blog.csdn.net/quiet_girl/article/details/84401029  
 
 
 
