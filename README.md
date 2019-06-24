@@ -75,6 +75,11 @@
  回归到任意值             |None                     | mse  
  回归到0~1范围内的值      |sigmoid                  | mse或binary_crossentropy
 
+## 经典讲解：
+L1和L2正则化项的理解：https://blog.csdn.net/jinping_shi/article/details/52433975  
+
+
+
  
  
 
